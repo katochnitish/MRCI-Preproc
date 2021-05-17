@@ -130,10 +130,8 @@ make -j 4 2>&1 | tee build.log
 cd ANTS-build 
 make install 2>&1 | tee install.log 
 ```
-
 Follow this link for more information: https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS#get-the-latest-code
 
-git tag "FSL"
 
 
 
