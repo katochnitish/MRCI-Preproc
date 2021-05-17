@@ -53,9 +53,8 @@ sudo apt install build-essential
 sudo apt-get install dc python mesa-utils gedit pulseaudio libquadmath0
 ```
 Note: Every time you give sudo command it will ask for password it the same password used while creating user name. Additional installation will ask for permission for memory space. Please press **y**.
-
+____
 ![image](https://user-images.githubusercontent.com/14322345/118450555-47bf5700-b72f-11eb-854f-c418092443d4.png)
-
 
 **Step 1.**
   Download the FSL installer file
@@ -82,8 +81,7 @@ Restart the Ubuntu terminal again and run: **bet**
 For more deatailed information please go to this website: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation/Windows#WSL_2_Changes_.28_provisional_.29
 
 *Tips:* fsl installer only works with python version below 2.3. If you want to reduce the size of fsl software you can delete the atlases or surface files from standard/data/atlases folder. This will reduces your ubuntu space in C-drive. 
-
-
+____
 ![image](https://user-images.githubusercontent.com/14322345/118452123-d680a380-b730-11eb-8abb-a90369b56bfd.png)
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -135,7 +133,7 @@ make install 2>&1 | tee install.log
 
 Follow this link for more information: https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS#get-the-latest-code
 
-
+git tag "FSL"
 
 
 
