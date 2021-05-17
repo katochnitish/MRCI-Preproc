@@ -117,7 +117,8 @@ or
 ```
 ./installANTs.sh
 ```
-*Option 2*
+*Option 2* 
+Clone git repository
 ```
 workingDir=${PWD}
 git clone https://github.com/ANTsX/ANTs.git 
