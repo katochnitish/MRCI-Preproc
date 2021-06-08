@@ -1,12 +1,9 @@
 #!/bin/bash
-
 antsBuildInstructions="https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS"
 
 echo "
 This script will download ANTs, build and install under the current directory. 
-
 Developer tools including compilers, git and cmake must be installed
-
 If you encounter errors, please see the installation instructions at
 
   $antsBuildInstructions
@@ -20,7 +17,6 @@ workingDir=${PWD}
 
 # Clone the repo
 git clone https://github.com/ANTsX/ANTs.git
-
 # If you want to build a particular release, do so here
 # cd ANTs
 # git checkout v2.3.1
