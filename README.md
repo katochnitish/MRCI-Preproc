@@ -136,6 +136,8 @@ Follow this link for more information: https://github.com/ANTsX/ANTs/wiki/Compil
 
 
 ------------------------------------------------- WSL 2 Installation windows ----------------------------------------------------------
+
+
 Enable-UEFI Bios (SMT) visualization
 
 Go to Turn windows feathers ON or OFF
@@ -152,6 +154,7 @@ enter
 Install Ubuntu 20.04 LTS from microsoft store and give username and password, Run basic installation
 
 ------------------------------------------------- Basic Installation after- ---------------------------------------------------------------
+
 sudo apt-get update -y; sudo apt-get upgrade -y; sudo apt-get install dc python mesa-utils gedit pulseaudio libquadmath0
 sudo apt-get install build-essential
 sudo apt-get install git
